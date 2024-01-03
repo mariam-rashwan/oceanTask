@@ -1,0 +1,258 @@
+<div class="taxContent">
+  <section class="titlePart">تقرير الضرائب</section>
+
+  <div class="container-fluid">
+
+    <!-- submit form  -->
+    <section class="reportSubmit">
+      <form action="">
+        <div class="formContent">
+          <div class="formItem pe-2">
+            <label for="tax" class="taxLabel d-block"> الضرائب :</label>
+            <select id="tax" class="selectFormate">
+              <option selected>كل الضرائب</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="formItem pe-2">
+            <label for="tax" class="taxLabel d-block"> نوعية الدخل :</label>
+            <select id="tax" class="selectFormate">
+              <option selected>تم إصدارها (مستحقة)</option>
+              <option>...</option>
+            </select>
+          </div>
+
+          <div class="formItem pe-2">
+            <label for="tax" class="taxLabel d-block"> الفترة من /إلى :</label>
+            <input
+              type="date"
+              name=""
+              id=""
+              class="selectFormate ps-4"
+              value="2023-01-03"
+            />
+          </div>
+
+          <div class="formItem pe-2">
+            <label for="tax" class="taxLabel d-block"> تجميع حسب :</label>
+            <select id="tax" class="selectFormate">
+              <option selected>البند</option>
+              <option>...</option>
+            </select>
+          </div>
+
+          <div class="currency d-flex ">
+            <div class="formItem pe-2">
+              <label for="tax" class="taxLabel d-block"> العملة:</label>
+              <select id="tax" class="selectFormate">
+                <option selected>EGP</option>
+                <option>USA</option>
+              </select>
+            </div>
+
+            <div class="formItem pe-2">
+              <label for="tax" class="taxLabel d-block"> العملة:</label>
+              <select id="tax" class="selectFormate" disabled>
+                <option selected>None Selected</option>
+                <option>...</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div class="submitbtn">
+          <button type="submit" class="">عرض التقرير</button>
+        </div>
+      </form>
+    </section>
+
+
+
+    <section class="reportSubmit text-center darkGray">
+      <h5>تقرير الضرائب المفصل (EGP)</h5>
+      <p class="mb-0">من 20/06/2023 إلى 20/08/2023</p>
+      <img
+        src="../../../assets/images/logo.png"
+        alt="oceanTeach"
+        class="img-fuid w-50"
+      />
+    </section>
+
+    <div class="reportFilter">
+      <div class="d-flex">
+        <div class="filterItem">
+          <i class="fa-solid fa-bars"></i>
+          <span> الملخص</span>
+        </div>
+        <div class="filterItem">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <span> التفاصيل</span>
+        </div>
+      </div>
+
+      <div class="d-flex">
+        <div class="filterItem">
+          <i class="fa-solid fa-print"></i>
+          <span> طباعة </span>
+        </div>
+
+        <div class="filterItem">
+          <i class="fa-solid fa-cloud-arrow-down"></i>
+          <span> خيارات التصدير </span>
+        </div>
+
+        <button class="blueColor btnEdit">
+          <i class="fa-solid fa-sort-down"></i>
+        </button>
+      </div>
+    </div>
+
+    <section class="tabelContent">
+      <table class="table w-100">
+        <thead>
+          <tr class="">
+            <th scope="col" colspan="">رقم</th>
+            <th scope="col" colspan="">الممول</th>
+            <th scope="col" colspan="">سجل تجارى</th>
+            <th scope="col" colspan="">بطاقة ضريبية</th>
+            <th scope="col" colspan="">التاريخ</th>
+            <th scope="col" colspan="">البلد</th>
+            <th scope="col" colspan="">الوصف</th>
+            <th scope="col" colspan="" >المبلغ الخاضع للضريبة</th>
+            <th scope="col" colspan="">الضرائب</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="py-4">
+            <p class="pb-4"></p>
+          </tr>
+          <tr class="fw-bold">
+            <p>القيمة المضافة (14%)</p>
+          </tr>
+          <tr class="fw-bold">
+            <p class="darkGray">فواتير البيع :</p>
+          </tr>
+
+          <tr class="darkGray">
+            <td>000001</td>
+            <td>oceanTeach</td>
+            <td></td>
+            <td></td>
+            <td>13/07/2023</td>
+            <td>كلوز ماش ابيض</td>
+            <td></td>
+            <td>1,456.0</td>
+            <td>204.82</td>
+          </tr>
+          <tr class="fw-bold">
+            <p>المجموع</p>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+
+            <td>1,456.0</td>
+            <td>204.82</td>
+          </tr>
+          <tr class="py-4">
+            <p class="pb-4"></p>
+          </tr>
+          <tr class="fw-bold">
+            <p class="darkGray">مردودات المبيعات :</p>
+          </tr>
+          <tr class="darkGray">
+            <td>000001</td>
+            <td>oceanTeach</td>
+            <td></td>
+            <td></td>
+            <td>13/07/2023</td>
+            <td>كلوز ماش ابيض</td>
+            <td></td>
+            <td>1,456.0</td>
+            <td>204.82</td>
+          </tr>
+          <tr class="fw-bold">
+            <p>المجموع</p>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+
+            <td>1,456.0</td>
+            <td>204.82</td>
+          </tr>
+          <tr class="py-4">
+            <p class="pb-4"></p>
+          </tr>
+
+          <tr class="fw-bold">
+            <p class="darkGray">مردودات المشتريات :</p>
+          </tr>
+          <tr class="darkGray">
+            <td>000001</td>
+            <td>oceanTeach</td>
+            <td></td>
+            <td></td>
+            <td>13/07/2023</td>
+            <td>كلوز ماش ابيض</td>
+            <td></td>
+            <td>1,456.0</td>
+            <td>204.82</td>
+          </tr>
+          <tr class="fw-bold">
+            <p>المجموع</p>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+
+            <td>1,456.0</td>
+            <td>204.82</td>
+          </tr>
+          <tr class="py-4">
+            <p class="pb-4"></p>
+          </tr>
+
+          <tr class="fw-bold">
+            <p>الإجمالى الكلى (EGP)</p>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+            <td class="border-0"></td>
+
+            <td class="fw-bold">2,856.44</td>
+            <td class="fw-bold">204.82</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <div class="endBtns">
+      <div class="d-flex pb-3">
+        <div class="filterItem">
+          <i class="fa-solid fa-cloud-arrow-down"></i>
+          <span> خيارات التصدير </span>
+        </div>
+
+        <button class="blueColor btnEdit">
+          <i class="fa-solid fa-sort-down"></i>
+        </button>
+      </div>
+
+      <div>
+        <button class="blueColor haveQ me-auto">
+          <span> لديك سؤال </span>
+          <i class="fa-solid fa-circle-question pe-1"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

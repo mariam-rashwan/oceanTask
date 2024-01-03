@@ -1,0 +1,189 @@
+div.taxContent {
+  background-color: var(--main-bg-color);
+  height: 100%;
+}
+
+.titlePart {
+  background-color: #fff;
+  color: var(--sec-color);
+  padding: 10px;
+  font-weight: 400;
+}
+
+.reportSubmit {
+  margin-block: 1rem;
+  background-color: #fff;
+  padding: 1rem;
+  padding-inline-end: 5rem;
+}
+
+.selectFormate {
+  padding: 0.2rem 0.1rem 0.2rem 1rem;
+  width: 13rem;
+  color: rgb(100, 99, 99);
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.formItem:nth-child(4) .selectFormate {
+  width: 4.5rem;
+}
+.taxLabel {
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+  font-size: 14px;
+  padding: 5px;
+}
+.formContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+.currency{
+  margin-inline-start: auto;
+}
+
+.currency .formItem .selectFormate {
+  width: 5rem;
+}
+
+.currency .formItem .selectFormate[disabled] {
+  width: 8rem;
+  background-color: var(--main-bg-color);
+}
+
+.submitbtn {
+  margin-top: 4rem;
+}
+
+.submitbtn button {
+  padding-inline: 3.5rem;
+  padding-block: 5px;
+  background-color: rgb(10, 170, 105);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.submitbtn button:hover {
+  background-color: rgb(9, 151, 94);
+}
+
+.grayColor {
+  color: rgb(80, 80, 80);
+}
+.reportSubmit p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.reportFilter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filterItem {
+  border: 1px solid rgb(201, 198, 198);
+  padding: 5px 10px;
+  background-color: rgb(219, 231, 243);
+  color: rgb(80, 80, 80);
+  font-size: 14px;
+  font-weight: 500;
+}
+.btnEdit {
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-inline: 0.6rem;
+}
+.btnEdit i {
+  transform: translateY(-10%);
+  font-size: 12px;
+}
+
+.blueColor{
+  background-color: rgb(56,179,228);
+}
+
+.tabelContent {
+  margin-block: 0 ;
+  background-color: #fff;
+  /* padding: 1rem; */
+  box-shadow: 0 2px 0  rgb(211, 211, 211);
+}
+
+.tabelContent {
+  overflow: auto;
+}
+th, thead, tr , td {
+  border-width:1px;
+  border-color: rgb(192, 191, 191);
+  text-align: start;
+  font-size: 15px;
+  color: rgb(48, 48, 48);
+}
+
+td{
+  font-weight: 500;
+  font-size: 14px;
+  max-width: 10rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
+thead th{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+tr p{
+  margin-bottom: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.darkGray{
+  color: rgb(71, 71, 71);
+
+}
+
+.endBtns{
+  padding-inline-end: 2rem;
+}
+
+.haveQ {
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-inline: 0.6rem;
+  font-size: 14px;
+  font-weight: 500;
+  padding-block: 4px;
+  border-radius: 3px;
+}
+
+
+
+/* .currency{
+  margin-inline-start: auto;
+} */
+
+
+
+@media only screen and (max-width: 1200px) {
+  .currency{
+    margin-inline-start: 1px;
+  }
+  .reportSubmit {
+    padding-inline-end: 2rem;
+  }
+}

@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+:root{
+    --main-bg-color:rgb(214,213,220);
+    --light-blue-bg-color:#11cdef;
+    --foshia-bg-color:rgb(245, 54, 92);
+    --main-secondary-color:rgb(0, 115, 183);
+    --ligth-green-bg-color:rgb(78,191,145);
+    --yellow-orange-bg-color:rgb(255,173,70);
+    --dark-blue:rgba(96,92,168,255);
+    --purple-color:rgba(137,40,178,255);
+    --redSale-color:rgb(241,41,41);
+    --icons-color:rgb(85, 85, 85);
+    /* /// fonts color */
+    --sale-color:rgb(251, 180, 22);
+    --sec-color:rgb(128, 128, 128);
+
+}
+
+.light-blue-bg{
+    background-color: var(--light-blue-bg-color);
+}
+.light-color{
+    color: var(--light-blue-bg-color);
+}
+.light-red-bg{
+    background-color: var(--foshia-bg-color);
+}
+.secondry-bg{
+    background-color: var(--main-secondary-color);
+}
+.light-green-bg{
+    background-color: var(--ligth-green-bg-color);
+}
+.yell-orng-bg{
+    background-color: var(--yellow-orange-bg-color);
+}
+.dark-blue-bg{
+    background-color: var(--dark-blue);
+}
+.bg-purple{
+    background-color: var(--purple-color);
+}
+.sm-fontSize{
+    font-size: 0.9rem;
+}
+body{
+    direction: rtl;
+    text-align:right;
+
+}
+.btn-formate{
+    border: none;
+    padding: 1px 0.4rem 2px;
+    height: fit-content;
+    color: #fff;
+    border-radius: 2px;
+
+}
+
+/* ///scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 3px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: darkgray;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3); 
+    border-radius: 3px;
+
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

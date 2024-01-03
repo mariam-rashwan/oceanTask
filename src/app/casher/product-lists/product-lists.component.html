@@ -1,0 +1,49 @@
+<section class="productsSec my-2">
+  <div class="categories mb-3">
+    <button
+      class="catBtn btn-formate me-2 rounded-1 py-1 px-2 allBtn catShadow"
+    >
+      <span> الكل</span>
+    </button>
+
+    <button
+      class="bg-purple catBtn btn-formate me-2 rounded-1 py-1 px-2 catShadow mb-2"
+      *ngFor="let cat of Categories; let i = index"
+    >
+      <span> {{ cat }}</span>
+    </button>
+  </div>
+
+  <div class="productsList">
+
+@for (prodItem of productListItems; track $index) {
+    <div class="productItem" >
+      <div class="prodctInfo">
+
+        <div class="sale">
+          <i class="fa-solid fa-circle-check fa-md"></i>
+          <span>-{{prodItem.sale}}</span>
+        
+        </div>
+
+        <div class="salary text-light">
+          <span>{{prodItem.price}}</span>
+        <i class="fa-solid fa-money-bill-1 fa-md"></i>
+        </div>
+      </div>
+
+      <div class="productImg">
+        <img [src]="prodItem.image" [alt]="prodItem.imgAttr" class="" />
+      </div>
+      <div class="description">
+        <span>{{prodItem.name}}</span>
+      </div>
+    </div>
+  }@empty {
+    <p>No Products Yet </p>
+  }
+
+
+
+  </div>
+</section>
