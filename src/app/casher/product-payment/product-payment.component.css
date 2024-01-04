@@ -116,7 +116,13 @@ tbody, td, tfoot, th, thead, tr {
   overflow: auto;
 }
 
+@media only  screen and (max-width: 360px) {
+  .selectorFormate{
+    width: 11rem;
+  }
 
+  
+}
 
 @media only  screen and (max-width: 768px) {
   .paySec{
@@ -126,7 +132,7 @@ tbody, td, tfoot, th, thead, tr {
 
   .inputGroup:nth-child(2) input{
     padding-inline-end:3rem;
-    width: 74%;
+    width: 73%;
     padding-top:5px !important; 
 
     }
@@ -145,7 +151,7 @@ tbody, td, tfoot, th, thead, tr {
   }
   .inputGroup:nth-child(2) input{
     padding-inline-end:3rem;
-    width: 74%;
+    width: 73%;
     padding-top:5px !important; 
 
     }

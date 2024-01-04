@@ -66,18 +66,16 @@
 
 
 
-@media only screen and (max-width: 680px) {
+
+@media only screen and (max-width: 679px){
   .productsList .productItem {
-    width: calc(96% / 2);
-    /* flex-grow: 1; */
+    width: calc(95% / 2);
   }
 }
 
-
 @media only screen and (min-width: 680px) {
   .productsList .productItem {
-    width: calc(95% / 3);
-    /* flex-grow: 1; */
+    width: calc(95% / 2);
   }
 }
 
