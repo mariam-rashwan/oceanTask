@@ -6,50 +6,112 @@
           <i class="fa-solid fa-user"></i>
         </span>
         <select id="inputState" class="selectorFormate">
-          <option selected> عميل نقدى  </option>
+          <option selected>عميل نقدى</option>
           <option>...</option>
         </select>
         <span class="blusCircle">
-            <i class="fa-solid fa-circle-plus"></i>
-          </span>
+          <i class="fa-solid fa-circle-plus"></i>
+        </span>
       </div>
       <div class="inputGroup">
         <span class=""><i class="fa-solid fa-magnifying-glass-plus"></i></span>
         <input
           type="text"
           placeholder="أدخل اسم المنتج /sku/مسح الباركود"
-          class="inputFormate"
+          class="inputFormate py-1"
         />
         <span class="blusCircle">
           <i class="fa-solid fa-circle-plus"></i>
         </span>
       </div>
     </div>
+    <div class="inputs">
+      <div class="inputGroup">
+        <select id="inputState" class="selectorFormate sec">
+          <option selected>بائع بالعمولة</option>
+          <option>...</option>
+        </select>
+      </div>
+
+      <div class="inputGroup">
+        <span class="">
+          <i class="fa-solid fa-money-bill-1"></i>
+        </span>
+        <select id="inputState" class="selectorFormate">
+          <option selected>سعر البيع الافتراضى</option>
+          <option>...</option>
+        </select>
+        <span class="blusCircle">
+          <i class="fa-solid fa-circle-info light-color"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="inputGroup newFormate">
+      <span class="">
+        <i class="fa-solid fa-user-secret"></i>
+      </span>
+      <select id="inputState" class="selectorFormate">
+        <option selected>اختر طاقم الخدمة</option>
+        <option>...</option>
+      </select>
+    </div>
   </form>
 
-  <table class="table mt-3">
-    <thead>
-      <tr class="table-dark ">
-        <th scope="col" colspan="3"> 
-          <span> منتج </span> 
+  <div class="tabelContent">
+    <table class="table mt-3">
+      <thead>
+        <tr class="table-dark">
+          <th scope="col" colspan="3">
+            <span> منتج </span>
+            <i class="fa-solid fa-circle-info light-color"></i>
+          </th>
+          <th scope="col" colspan="2">الكمية</th>
+          <th scope="col" colspan="2">المجموع</th>
+          <th scope="col" colspan="1"><i class="fa-solid fa-xmark"></i></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="3">iphone 13 pro</td>
+          <td colspan="2">1</td>
+          <td colspan="2">25.000</td>
+          <td colspan="1">0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="lastPart">
+    <div class="submitRow">
+      <span> عناصر:0.00 </span>
+      <span class="px-5 me-5"> المجموع:0.00 </span>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 formating">
+          <span> الخصم </span>
           <i class="fa-solid fa-circle-info light-color"></i>
-
-        </th>
-        <th scope="col" colspan="2"> الكمية </th>
-        <th scope="col" colspan="2"> المجموع </th>
-        <th scope="col" colspan="1"><i class="fa-solid fa-xmark"></i></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-   <td colspan="3">iphone 13 pro  </td>
-   <td colspan="2">1</td>
-   <td colspan="2">25.000 </td>
-   <td colspan="1"> 0</td>
-
-      </tr>
-
-
-    </tbody>
-  </table>
+          <span> نقاط الولاء (-) : </span>
+          <i class="fa-solid fa-pen-to-square"></i>
+          <span>0.00</span>
+        </div>
+        <div class="col-md-3 col-sm-6 formating">
+          <span> ضربية الطلبية (+) : </span>
+          <i class="fa-solid fa-circle-info light-color"></i>
+          <i class="fa-solid fa-pen-to-square pe-1"> </i>
+          <span> 0.00 </span>
+        </div>
+        <div class="col-md-3 col-sm-6 formating">
+          <span> خدمة التوصيل (+) : </span>
+          <i class="fa-solid fa-circle-info light-color"></i>
+          <i class="fa-solid fa-pen-to-square pe-1"></i>
+          <span> 0.00 </span>
+        </div>
+        <div class="col-md-3 col-sm-6 formating pe-3">
+          <span> تقريب إلى :</span>
+          <span> 0 </span>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>

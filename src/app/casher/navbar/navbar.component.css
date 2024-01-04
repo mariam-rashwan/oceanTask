@@ -1,0 +1,42 @@
+.navEdit{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: teal; */
+    padding-bottom: 5px;
+}
+
+
+.btn-formate i{
+    font-size: 12px;
+}
+
+.selectFormate {
+    padding: 0.2rem 0.1rem 0.3rem 1rem;
+    width: 12rem;
+    color: rgb(100, 99, 99);
+    font-size: 15px;
+    font-weight: 400;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+     overflow: hidden;
+height: fit-content;    
+  }
+
+  form span{
+    color: rgb(100, 99, 99);
+    padding: 4px;
+    font-size: 14px;
+
+  }
+
+
+  form{
+    display: flex;
+    flex-wrap: wrap;
+  }

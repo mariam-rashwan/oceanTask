@@ -1,4 +1,11 @@
 main{
     background-color: var(--main-bg-color);
     height: 100%;
+    padding-block: 1rem;
+}
+
+.dataHandling{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
 }

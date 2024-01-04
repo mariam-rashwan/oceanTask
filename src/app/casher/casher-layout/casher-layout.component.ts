@@ -4,18 +4,21 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { ProductListsComponent } from '../product-lists/product-lists.component';
 import { ProductPaymentComponent } from '../product-payment/product-payment.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-casher-layout',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,NavbarComponent,
+  imports: [
+    CommonModule,
+    RouterOutlet,
+    NavbarComponent,
     ProductListsComponent,
-  ProductPaymentComponent
-],
+    ProductPaymentComponent,
+    FooterComponent,
+  ],
 
   templateUrl: './casher-layout.component.html',
-  styleUrl: './casher-layout.component.css'
+  styleUrl: './casher-layout.component.css',
 })
-export class CasherLayoutComponent {
-
-}
+export class CasherLayoutComponent {}

@@ -133,13 +133,13 @@ td{
   max-width: 10rem;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: nowrap; 
+   overflow: hidden;
   white-space: nowrap;
 
 }
 thead th{
-  overflow: hidden;
+  overflow: hidden;  
   text-overflow: ellipsis;
   white-space: nowrap;
 }

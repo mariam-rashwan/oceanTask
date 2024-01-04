@@ -43,7 +43,7 @@
     background-color: var(--purple-color);
 }
 .sm-fontSize{
-    font-size: 0.9rem;
+    font-size: 12px;
 }
 body{
     direction: rtl;
@@ -52,10 +52,12 @@ body{
 }
 .btn-formate{
     border: none;
-    padding: 1px 0.4rem 2px;
+    padding: 2px 0.3rem 2px;
     height: fit-content;
     color: #fff;
     border-radius: 2px;
+    margin-inline-start: 5px;
+    margin-block: 3px;
 
 }
 
@@ -83,3 +85,10 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+
+  ul{
+    padding-left: 0 !important;
+  }
+
+ 
